@@ -7,6 +7,8 @@
     <Company>Sadouski</Company>
     <Description>Test Nuget by mentoring program</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/DenisSadovsky/TestNuget.git</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <COMReference Include="AgentWmiLib.dll">
