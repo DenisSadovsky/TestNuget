@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <PackageId>Sadouski.TestNuget</PackageId>
+    <Authors>Sadouski</Authors>
+    <Company>Sadouski</Company>
+    <Description>Test Nuget by mentoring program</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <COMReference Include="AgentWmiLib.dll">
+      <Guid>0438d53a-9a57-423c-9e54-9612c4576257</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+</Project>
