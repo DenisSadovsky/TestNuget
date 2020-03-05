@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<configuration>
+﻿<configuration>
+  <appSetttings>
+    <add key="foo" value="bar" />
+  </appSetttings>
   <modules>
-    <add name="MyNuModule" type="Sample.MyNuModule" />
-  </modules>
+    <add name="NewSetting" value="New Setting Value" Transform="Insert"/>
+  </modules> 
 </configuration>
